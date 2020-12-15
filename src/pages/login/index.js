@@ -10,7 +10,7 @@ class Content extends Component {
       <div className="window">
         <div className="whiteSide">
           <div className="container">
-            <img src={logo} className = "logo"/>
+            <img alt='logo' src={logo} className = "logo"/>
             <p className="title">Xbox Games In</p>
             <form className="form">
                 <Input type='text' placeholder='email'/>
@@ -25,7 +25,7 @@ class Content extends Component {
           </div>
           </div>
           <div>
-            <img src={xbox} className='xbox'/>
+            <img alt='é um xbox padrin' src={xbox} className='xbox'/>
         </div>
       </div>
     );
