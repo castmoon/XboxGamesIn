@@ -18,9 +18,9 @@ class Content extends Component {
                 <Button name='Sign in'/>
             </form>
             <div className="footer">
-              <a className="links" href="#">Don't have an account?</a>
+              <a className="links" href="google.com">Don't have an account?</a>
               <span> | </span>
-              <a className="links" href="#">Forgot your password?</a>
+              <a className="links" href="google.com">Forgot your password?</a>
             </div>
           </div>
           </div>
