@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
-import logo from '../../assets/xbox-logo.svg'
-import Input from '../../components/Input'
-import xbox from '../../assets/xboxpreto.jpg'
-import Button from '../../components/Button';
+import logo from '@assets/xbox-logo.svg';
+import Input from '@components/Input';
+import xbox from '@assets/xboxpreto.jpg'
+import Button from '@components/Button';
+import { Link } from 'react-router-dom';
+import './login.css';
 
-class Content extends Component {
+class Login extends Component {
   render() {
     return (
       <div className="window">
@@ -18,9 +20,9 @@ class Content extends Component {
                 <Button name='Sign in'/>
             </form>
             <div className="footer">
-              <a className="links" href="google.com">Don't have an account?</a>
+              <Link className="links" to ='/register'>Don't have an account?</Link>
               <span> | </span>
-              <a className="links" href="google.com">Forgot your password?</a>
+              <Link className="links" to ='/'>Forgot your password?</Link>
             </div>
           </div>
           </div>
@@ -32,4 +34,4 @@ class Content extends Component {
   }
 }
 
-export default Content;
+export default Login;

@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@keyframes init {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -15,6 +20,8 @@ div.window {
   display: flex;
   justify-content: center;
   align-items: center;
+  animation-name: init;
+  animation-duration: 2s;
 }
 
 div.whiteSide {
@@ -117,5 +124,3 @@ div.whiteSide, .xbox{
     font-size: 0.8em;
   }
 }
-
-
